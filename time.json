@@ -1,0 +1,24 @@
+{
+    "description": "A list of units of time ordered by magnitude, both formal and colloquial.",
+    "time": [
+    "in a microsecond",
+    "for a second",
+    "in a minute",
+    "for an hour",
+    "today",
+    "next week",
+    "in a month",
+    "in a year",
+    "for a decade",
+    "this a century",
+    "in a millenium",
+    "next time",
+    "never",
+    "in a fortnight",
+    "in a blue moon",
+    "this moment",
+    "once in a while",
+    "later",
+    "in a bit"
+    ]
+}

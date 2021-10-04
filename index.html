@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head class="project-description">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <title>data date</title>
+</head>
+
+<body>
+    <section class="project__container">
+
+        <div id="canvas-container"></div>
+        <h1>DATA DATE</h1>
+        <div class="project-description" height="250">
+            <h3>a space for sweet, surprising, and sometimes offensive romantic inspiration</h3>
+            <p id="number"> <span id="AM-PM"></span></p>
+
+
+        </div>
+        <div class="project__entry" >
+            <select  id="date-type" class="dropdown">
+                <option value='1' >Where...</option>
+                <option value='2'>When...</option>
+                <option value='3'>How...</option>
+                <option value='4'>What...</option>
+            </select>
+            <button id="generate-date-button">Seek</button>
+        </div>
+        <div class="answer">
+            <p id='1'> Go to a... <b><i><span id="my-place"></span></i></b></p>
+            <p id='2'> Do it... <b><i><span id="my-time"></span></i></b></p>
+            <p id='3'> Tell them they are... <b><i><span id="my-compliment"></span></i></b></p>
+            <p id='4'> Do something... <b><i><span id="my-adjective"></span></i></b></p>
+            
+        </div>
+
+            <!---upvotes and downvotes for each date OR number of saves-->
+            <button class="button" id="ratings">See what others thought</button>
+            <div id="popularity-option">
+                <p>COMING SOON (ex:?% of people liked this idea)</p>
+            </div>
+
+        
+    </section>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script> -->
+    <script src="app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+
+    /* body{
+    font-family: monospace;
+    align-items: center;
+    margin: 100px;
+    } */
+
+    body {
+        background-image:url('/handsbg.jpg');
+        background-size: 80px;
+        background-blend-mode:multiply;
+        background-color: #cccccc;
+    }
+    .project__container {
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        align-items: center;
+        margin: 100px 20px;
+        background-color:salmon;
+        padding: 20px;
+        
+        }
+    h1{
+            
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+    }
+    body:hover {
+        background-size:200px;
+        transition: background-size 60s linear;
+    }
+    h3{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    select:hover{
+        background-color:pink;
+        }
+    .project__description{
+            margin:50px 20px;
+            background-color: lavenderblush;
+            display: flex;
+        flex-direction: column;
+    }
+    .project__entry{
+        width: 100%;
+        padding: 20px 0px;
+        text-align: center;
+        background-color:mistyrose;
+        margin-bottom: 120px;
+    }
+    .button{
+        display:inherit;
+        margin:0px auto;
+    }
+    .answer{
+        visibility: hidden;
+        text-align: center;
+        margin-bottom:20px;
+    }
+   
